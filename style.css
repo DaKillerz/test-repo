@@ -1,17 +1,25 @@
+@font-face {
+  font-family: "Courier Prime";
+  src: url("font/courier_prime.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
+}
+
 body {
   background-color: #333;
 }
 
-h1 {
-  font-family: Courier, Arial, Sans-Serif;
-  color: #0f6;
+h1, p {
+  font-family: Courier Prime, Courier New, Courier, Arial, Sans-Serif;
   text-align: center;
 }
 
+h1 {
+  color: #0f6;
+}
+
 p {
-  font-family: Courier New, Arial, Sans-Serif;
   color: #fff;
-  font-weight: 300;
+  font-weight: 200;
   font-style: italic;
-  text-align: center;
 }
